@@ -41,7 +41,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-  background: url('stars4.jpg') no-repeat;
+  background: url('lines.gif') no-repeat;
     -webkit-animation: movebackground 30s ease-in-out infinite alternate;
     -moz-animation: movebackground 30s ease-in-out infinite alternate;
     animation: movebackground 30s ease-in-out infinite alternate;
@@ -251,9 +251,9 @@ button:hover span
 {
   color: #fff;
   font-family: Monoton;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
+  -webkit-animation: neon1 15s ease-in-out infinite alternate;
+  -moz-animation: neon1 15s ease-in-out infinite alternate;
+  animation: neon1 15s ease-in-out infinite alternate;
 }
 
 .total-score .odometer
@@ -374,6 +374,18 @@ button:hover span
     background: url('avatar1.jpg') no-repeat;
     min-height: 9rem;
     background-size: 100%;
+}
+
+.starbackground
+{
+    height: 19rem;
+    width: 100%;
+    position: absolute;
+    background: url('stars4.jpg') no-repeat;
+    z-index: -1;
+    -webkit-animation: movebackground 15s ease-in-out infinite alternate;
+    -moz-animation: movebackground 15s ease-in-out infinite alternate;
+    animation: movebackground 15s ease-in-out infinite alternate;
 }
 
 /*glow for webkit*/
