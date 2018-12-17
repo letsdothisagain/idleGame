@@ -14,7 +14,7 @@ class TotalScore extends React.Component {
     }
     render() {
         return (
-  			<div className="total-score "><span className="title">Score:</span><div className="odometer">{this.state.totalscore}</div></div>
+  			<div className="total-score col-lg-6"><span className="title">Score:</span><div className="odometer">{this.state.totalscore}</div></div>
   			)
 	}
 }

@@ -67,6 +67,16 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+html {
+  background: #000;
+}
+
+.add-tile
+{
+  width: 50%;
+  height: 100%;
+}
+
 .tile
 {
     border: 3px solid #59d4f0;
