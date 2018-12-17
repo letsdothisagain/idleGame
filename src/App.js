@@ -9,7 +9,7 @@ class App extends Component {
     this.state = { 
       percentage: undefined,
       totalscore: undefined,
-      tilenumbers: [1, 1, 1]
+      tilenumbers: [1]
     };
 
     this.addTile = this.addTile.bind(this)
@@ -27,7 +27,7 @@ class App extends Component {
     });
     return (
       <div className="App">
-        <div className="row">
+        <div className="row topRow">
         <TotalScore />
         <div className="col-lg-6" style={{ margin: '20px 0' }}>  
             <button className="add-tile" onClick={this.addTile}>

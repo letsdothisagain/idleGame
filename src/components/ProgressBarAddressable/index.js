@@ -59,7 +59,7 @@ class ProgressBarAddressable extends React.Component {
   increaseTile() {
 
     let tileValue = this.state.tilevalue;
-    if(tileValue < score)
+    if(tileValue <= score)
     {
       let currentOwned = this.state.tileowned;
       let increaseAmount = 1;
