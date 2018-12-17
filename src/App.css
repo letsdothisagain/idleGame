@@ -376,6 +376,18 @@ button:hover span
     background-size: 100%;
 }
 
+.avatar p
+{
+  color: #fff;
+  font-size: 3rem;
+  font--weight: bold;
+}
+
+.avatar p:nth-child(2)
+{
+  font-size: 1rem;
+}
+
 .starbackground
 {
     height: 19rem;
